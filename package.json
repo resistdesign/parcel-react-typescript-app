@@ -1,0 +1,27 @@
+{
+  "name": "parcel-react-typescript-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html -o ./public/"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-hot-loader": "^4.1.1",
+    "@types/styled-components": "^5.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "typescript": "^3.9.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
